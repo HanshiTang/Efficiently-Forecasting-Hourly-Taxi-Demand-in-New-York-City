@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Yi0Zbe2y)
 # MAST30034 Project 1 README.md
-- Name: `INSERT YOUR NAME HERE`
-- Student ID: `INSERT YOUR STUDENT ID HERE`
+- Name: `Hanshi Tang`
+- Student ID: `1266337`
 
 ## Student Instructions
 You **must** write up `README.md` for this repository to be eligable for readability marks.
