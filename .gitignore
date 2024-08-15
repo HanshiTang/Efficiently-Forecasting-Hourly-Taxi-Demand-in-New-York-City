@@ -129,8 +129,7 @@ dmypy.json
 .pyre/
 
 # data
-data/curated/
-data/raw/
+data/
 
 # OSX .DS_Store file
 .DS_Store
