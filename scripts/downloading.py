@@ -53,9 +53,9 @@ def download_tlc_data(year, start_month, end_month, color='yellow'):
             print(f'Failed to download {year}-{month_str}. Status code: {response.status_code}')
 
 # Download the TLC trip data for 2023 and 2024
-download_tlc_data(2023, 5, 12, color='yellow')
+download_tlc_data(2023, 6, 12, color='yellow')
 download_tlc_data(2024, 1, 5, color='yellow')
-download_tlc_data(2023, 5, 12, color='green')
+download_tlc_data(2023, 6, 12, color='green')
 download_tlc_data(2024, 1, 5, color='green')
 
 # Function to download external data
