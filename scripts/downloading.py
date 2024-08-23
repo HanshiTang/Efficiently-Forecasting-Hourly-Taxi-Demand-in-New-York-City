@@ -16,10 +16,9 @@ spark = (
 spark.conf.set("spark.sql.parquet.compression.codec", "gzip")
 
 # Create the data folders
-base_dir = '../data'
+base_dir = './data'
 data_folders = [
-    'landing/tlc_data/2023',
-    'landing/tlc_data/2024',
+    'landing/tlc_data',
     'raw/tlc_data',
     'curated/tlc_data/first_clean',
     'curated/tlc_data/final_data',
@@ -35,7 +34,7 @@ for folder in data_folders:
 # Function to download TLC trip data
 def download_tlc_data(year, start_month, end_month, color='yellow'):
     URL_TEMPLATE = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{color}_tripdata_"
-    output_relative_dir = f'../data/landing/tlc_data/{year}'
+    output_relative_dir = f'./data/landing/tlc_data'
     
     for month in range(start_month, end_month + 1):
         month_str = str(month).zfill(2)
@@ -76,10 +75,10 @@ def download_external_data(url, output_file_path):
 
 # Download weather data from Central Park
 weather_url = 'https://www.ncei.noaa.gov/access/past-weather/USW00094728/data.csv'
-weather_output_path = '../data/landing/external/NYC_weather.csv'
+weather_output_path = './data/landing/external/NYC_weather.csv'
 download_external_data(weather_url, weather_output_path)
 
 # Download traffic data from NYC Open Data
 traffic_url = 'https://data.cityofnewyork.us/resource/btm5-ppia.csv?$limit=45000'
-traffic_output_path = '../data/landing/external/NYC_Traffic.csv'
+traffic_output_path = './data/landing/external/NYC_Traffic.csv'
 download_external_data(traffic_url, traffic_output_path)
