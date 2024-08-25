@@ -73,10 +73,12 @@ def download_external_data(url, output_file_path):
     else:
         print(f"Failed to download file. Status code: {response.status_code}")
 
-# Download weather data from Central Park
-weather_url = 'https://www.ncei.noaa.gov/access/past-weather/USW00094728/data.csv'
+# Download weather data from Central Park NYC
+weather_url_2023 = 'https://www.ncei.noaa.gov/data/global-hourly/access/2023/72505394728.csv'
+weather_url_2024 = 'https://www.ncei.noaa.gov/data/global-hourly/access/2024/72505394728.csv'
 weather_output_path = './data/landing/external/NYC_weather.csv'
-download_external_data(weather_url, weather_output_path)
+download_external_data(weather_url_2023, weather_output_path)
+download_external_data(weather_url_2024, weather_output_path)
 
 # Download traffic data from NYC Open Data
 traffic_url = 'https://data.cityofnewyork.us/resource/btm5-ppia.csv?$limit=45000'
