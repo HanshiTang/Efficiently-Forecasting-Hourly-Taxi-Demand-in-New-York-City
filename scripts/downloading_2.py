@@ -27,8 +27,3 @@ weather_output_path_2023 = './data/landing/external/NYC_weather_2023.csv'
 weather_output_path_2024 = './data/landing/external/NYC_weather_2024.csv'
 download_external_data(weather_url_2023, weather_output_path_2023)
 download_external_data(weather_url_2024, weather_output_path_2024)
-
-# Download event data from NYC Open Data
-base_url = 'https://data.cityofnewyork.us/resource/tvpp-9vvx.csv?$limit=30000'
-event_output_path = './data/landing/external/NYC_Event.csv'
-download_external_data(base_url, event_output_path)
