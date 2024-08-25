@@ -85,3 +85,4 @@ download_external_data(weather_url_2024, weather_output_path_2024)
 traffic_url = 'https://data.cityofnewyork.us/resource/btm5-ppia.csv?$limit=45000'
 traffic_output_path = './data/landing/external/NYC_Traffic.csv'
 download_external_data(traffic_url, traffic_output_path)
+ 
