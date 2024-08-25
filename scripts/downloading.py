@@ -76,9 +76,10 @@ def download_external_data(url, output_file_path):
 # Download weather data from Central Park NYC
 weather_url_2023 = 'https://www.ncei.noaa.gov/data/global-hourly/access/2023/72505394728.csv'
 weather_url_2024 = 'https://www.ncei.noaa.gov/data/global-hourly/access/2024/72505394728.csv'
-weather_output_path = './data/landing/external/NYC_weather.csv'
-download_external_data(weather_url_2023, weather_output_path)
-download_external_data(weather_url_2024, weather_output_path)
+weather_output_path_2023 = './data/landing/external/NYC_weather_2023.csv'
+weather_output_path_2024 = './data/landing/external/NYC_weather_2024.csv'
+download_external_data(weather_url_2023, weather_output_path_2023)
+download_external_data(weather_url_2024, weather_output_path_2024)
 
 # Download traffic data from NYC Open Data
 traffic_url = 'https://data.cityofnewyork.us/resource/btm5-ppia.csv?$limit=45000'
