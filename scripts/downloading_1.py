@@ -16,7 +16,7 @@ spark = (
 spark.conf.set("spark.sql.parquet.compression.codec", "gzip")
 
 # Create the data folders
-base_dir = './data'
+base_dir = '../data'
 data_folders = [
     'landing/tlc_data',
     'raw/tlc_data',
@@ -34,7 +34,7 @@ for folder in data_folders:
 # Function to download TLC trip data
 def download_tlc_data(year, start_month, end_month, color='yellow'):
     URL_TEMPLATE = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{color}_tripdata_"
-    output_relative_dir = f'./data/landing/tlc_data'
+    output_relative_dir = f'../data/landing/tlc_data'
     
     for month in range(start_month, end_month + 1):
         month_str = str(month).zfill(2)
