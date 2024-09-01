@@ -25,5 +25,7 @@ To run the pipeline, please visit the `scripts` directory and run the files in o
 6. `1.2 preprocessing_2.ipynb`: This notebook details preprocessing steps for weather data and outputs it to the `data/raw`.
 7. `1.3 preprocessing_3.ipynb`: This notebook details preprocessing steps for event data and outputs it to the `data/raw`.
 9. `1.4 preprocessing_4.ipynb`: This notebook details preprocessing steps for event data and outputs it to the `data/curated`.
-10. `analysis.ipynb`: This notebook is used to conduct analysis on the curated data.
-11. `model.py` and `model_analysis.ipynb`: The script is used to run the model from CLI and the notebook is used for analysing and discussing the model.
+10. `1.4 preprocessing_4.ipynb`: This notebook details preprocessing steps for event data and outputs it to the `data/curated`.
+11. `EDA_1.ipynb`: This notebook is used to conduct analysis on the curated data.
+12. `EDA_1.ipynb`: This notebook is used to conduct analysis on the curated data.
+13. `model_analysis.ipynb`: The script is used to run the model from CLI and the notebook is used for analysing and discussing the model.
