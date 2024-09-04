@@ -4,11 +4,7 @@
 - Student ID: `1266337`
 
 
-
-6. Finally, your report. If you are using overleaf, you can download the `.zip` and extract it into this folder.
-
-
-## README example
+## README 
 
 **Research Goal:** My research goal is forecasting Hourly Yellow and Green Taxi Demand in New York City. 
 
@@ -18,6 +14,8 @@ To run the pipeline, please visit the `scripts` directory and run the files in o
 1. `downloading_1.py`: This downloads the tlc raw data into the `data/landing` directory.
 2. `downloading_2.py`: This downloads the weather raw data into the `data/landing` directory.
 3. `downloading_3.py`: This downloads the event raw data into the `data/landing` directory.
+
+To run the notebooks, please visit the `notebook` directory and run the files in order:
 4. `1.1 preprocessing_1.ipynb`: This notebook details preprocessing steps for tlc data and outputs it to the `data/raw`.
 6. `1.2 preprocessing_2.ipynb`: This notebook details preprocessing steps for weather data and outputs it to the `data/raw`.
 7. `1.3 preprocessing_3.ipynb`: This notebook details preprocessing steps for event data and outputs it to the `data/raw`.
