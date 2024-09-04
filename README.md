@@ -22,5 +22,5 @@ To run the notebooks, please visit the `notebook` directory and run the files in
 9. `1.4 preprocessing_4.ipynb`: This notebook details join of 3 datasets from 1.1, 1.2, 1.3 and outputs it to the `data/curated`.
 10. `1.5 preprocessing_5.ipynb`: This notebook details selects features for tlc data from 1.1 and outputs it to the `data/curated`.
 11. `EDA_1.ipynb`: This notebook is used to conduct analysis on the curated joined data.
-12. `EDA_1.ipynb`: This notebook is used to conduct analysis on the curated tlc data.
+12. `EDA_2.ipynb`: This notebook is used to conduct analysis on the curated tlc data.
 13. `model_analysis.ipynb`: This notebook is used for modeling, and its following discussing.
